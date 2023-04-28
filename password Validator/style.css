@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    background-image: url("./assets/pass\ body.jpg");
+}
+
+.container{
+    height: 450px;
+    width:600px ;
+    padding:15px 35px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 4px solid rgb(246, 255, 124); */
+    /* background-color: rgb(245, 6, 6); */
+    gap: 15px;
+    background-image: url("./assets/pass\ container.png");
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+#Submit{
+    padding: 5px 15px;
+    font-size: 15px;
+    font-weight: 800;
+    background-color: coral;
+    color: aliceblue;
+    border-radius: 5px;
+
+}
+#Submit:hover{
+    background-color: aliceblue;
+    color: coral;
+}
